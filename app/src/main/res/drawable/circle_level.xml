@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/circle2" android:state_activated="true"/>
+    <!-- 定義按鈕預設的圖片 -->
+    <item android:drawable="@drawable/circle"/>
+
+</selector>

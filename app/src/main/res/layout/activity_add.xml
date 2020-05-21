@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="16dp"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="Name"
+        android:textSize="32sp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/ET1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@id/TV1">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_below="@+id/TV1"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="Number"
+        android:inputType="text"
+        android:textSize="32sp">
+    </TextView>
+
+    <EditText
+        android:layout_below="@id/ET1"
+        android:inputType="number"
+        android:id="@+id/ET2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@id/TV2"/>
+
+    <Button
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/TV2"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="OK" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/TV2"
+        android:layout_toRightOf="@id/button"
+        android:id="@+id/button2"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Cancel" />
+
+
+</RelativeLayout>
